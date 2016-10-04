@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+  <student id="1" name="ALEXANDER" surname="MAKEDONSKIY"/>
+  <student id="2" name="MAKSIM" surname="GALKIN"/>
+  <student id="3" name="GALINA" surname="GALEVA"/>
+  <student id="4" name="POROSIONOK" surname="FUNTIC"/>
+  <student id="5" name="LAS" surname="VEGAS"/>
+  <student id="6" name="NEW" surname="YORK"/>
+  <student id="7" name="IVAN" surname="IVANOV"/>
+  <student id="8" name="PETER" surname="PETROV"/>
+  <student id="9" name="SIDOR" surname="SIDOROV"/>
+  <student id="10" name="VLADIMIR" surname="VISOCKIY"/>
+  <subject id="1" name="Physics"/>
+  <subject id="2" name="Mathematics"/>
+  <subject id="3" name="Computer science"/>
+  <mark id="1" mark="9" student_id="1" subject_id="1"/>
+  <mark id="2" mark="8" student_id="1" subject_id="2"/>
+  <mark id="3" mark="7" student_id="1" subject_id="3"/>
+  <mark id="4" mark="10" student_id="2" subject_id="1"/>
+  <mark id="5" mark="7" student_id="2" subject_id="2"/>
+  <mark id="6" mark="5" student_id="2" subject_id="3"/>
+  <mark id="7" mark="9" student_id="3" subject_id="1"/>
+  <mark id="8" mark="9" student_id="3" subject_id="2"/>
+  <mark id="9" mark="9" student_id="3" subject_id="3"/>
+  <mark id="10" mark="8" student_id="4" subject_id="1"/>
+  <mark id="11" mark="7" student_id="4" subject_id="2"/>
+  <mark id="12" mark="10" student_id="4" subject_id="3"/>
+  <mark id="13" mark="6" student_id="5" subject_id="1"/>
+  <mark id="14" mark="7" student_id="5" subject_id="2"/>
+  <mark id="15" mark="10" student_id="5" subject_id="3"/>
+  <mark id="16" mark="10" student_id="6" subject_id="1"/>
+  <mark id="17" mark="10" student_id="6" subject_id="2"/>
+  <mark id="18" mark="7" student_id="7" subject_id="1"/>
+  <mark id="19" mark="8" student_id="7" subject_id="2"/>
+  <mark id="20" mark="9" student_id="7" subject_id="3"/>
+  <mark id="21" mark="8" student_id="8" subject_id="1"/>
+  <mark id="22" mark="8" student_id="8" subject_id="2"/>
+  <mark id="23" mark="8" student_id="8" subject_id="3"/>
+  <mark id="24" mark="5" student_id="9" subject_id="1"/>
+  <mark id="25" mark="4" student_id="9" subject_id="2"/>
+  <mark id="26" mark="3" student_id="9" subject_id="3"/>
+  <mark id="27" mark="3" student_id="10" subject_id="1"/>
+  <mark id="28" mark="2" student_id="10" subject_id="2"/>
+  <mark id="29" mark="1" student_id="10" subject_id="3"/>
+  <mark id="30" mark="5" student_id="6" subject_id="3"/>
+</dataset>

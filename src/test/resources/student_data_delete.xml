@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+  <student id="1" name="ALEXANDER" surname="MAKEDONSKIY"/>
+  <student id="2" name="MAKSIM" surname="GALKIN"/>
+  <student id="3" name="GALINA" surname="GALEVA"/>
+  <student id="4" name="POROSIONOK" surname="FUNTIC"/>
+  <student id="5" name="LAS" surname="VEGAS"/>
+  <student id="6" name="NEW" surname="YORK"/>
+  <student id="7" name="IVAN" surname="IVANOV"/>
+  <student id="8" name="PETER" surname="PETROV"/>
+  <student id="9" name="SIDOR" surname="SIDOROV"/>
+</dataset>

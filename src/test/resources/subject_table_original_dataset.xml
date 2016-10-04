@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+  <subject id="1" name="Physics"/>
+  <subject id="2" name="Mathematics"/>
+  <subject id="3" name="Computer science"/>
+</dataset>
