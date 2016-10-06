@@ -7,9 +7,7 @@ import org.dbunit.database.QueryDataSet;
 import org.dbunit.dataset.IDataSet;
 import org.dbunit.dataset.xml.FlatXmlDataSetBuilder;
 import org.dbunit.operation.DatabaseOperation;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 
@@ -21,7 +19,7 @@ import java.util.Properties;
 import static org.testng.Assert.*;
 
 
-public class StudentDaoTest_TestNG extends DBTestCase{
+public class StudentDaoTest_TestNG extends DBTestCase {
 
     public StudentDaoTest_TestNG() throws DaoException {
         setProperty();
@@ -97,7 +95,7 @@ public class StudentDaoTest_TestNG extends DBTestCase{
         Assertion.assertEqualsIgnoreCols(updateDataset, databaseDataset, "student", ignore);
     }
 
-    @Test(groups =  "update",dependsOnMethods = "testUpdate")
+    @Test(groups = "update", dependsOnMethods = "testUpdate")
     public void testDelete() throws Exception {
 
         StudentDao studentDao = new StudentDao(getDatabaseTester().getConnection().getConnection());
@@ -129,7 +127,6 @@ public class StudentDaoTest_TestNG extends DBTestCase{
         assertEquals("The received NAME of student doesn't correspond to what was expected: ", "ALEXANDER", student.getName());
         assertEquals("The received SURNAME of student doesn't correspond to what was expected: ", "MAKEDONSKIY", student.getSurname());
     }
-
 
 
 }

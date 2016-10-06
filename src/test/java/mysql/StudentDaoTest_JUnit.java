@@ -1,6 +1,7 @@
 package mysql;
 
-import java.io.*;
+import java.io.File;
+import java.io.InputStream;
 import java.util.List;
 import java.util.Properties;
 
